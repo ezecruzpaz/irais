@@ -1,0 +1,122 @@
+<body>
+    <main class="mt-5">
+        <div class="container">
+            <!-- Carrusel Automático -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="https://visualma.com/static/e749b5ae3a5b3c7d3f9f885b98671a4d/03ef5/casaTierra_eco01.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color: black;">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="https://visualma.com/static/d7d55ac3be7ec39fc6951e216b7a1c03/03ef5/casaTierra_eco03.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color: black;">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="https://visualma.com/static/eb721231d6be161d050bcaab8aae1a43/03ef5/casaTierra_eco05.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color: black;">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="https://www.realovirtual.com/files/images/18001-19000/18099/601bc21a2ef65.jpeg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color: black;">
+                            <h5>Fourth slide label</h5>
+                            <p>Some representative placeholder content for the fourth slide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-center mt-3">EXPERIENCIA VIRTUAL</h2>
+
+            <!-- Sección con Imagen e Información -->
+            <div class="row mt-3">
+                <div class="col-md-6 order-md-1 order-2">
+                    <div class="img-container">
+                        <img src="https://play-lh.googleusercontent.com/287QQi9DaIkW16_tB2X3js7O2ozf8hM0oqUqgScO0hdDx3B5u-gL52ML-rWgvJt_DapT=w526-h296-rw"
+                            class="img-fluid img-section" alt="Imagen 1">
+                    </div>
+
+                </div>
+                <div class="col-md-6 order-md-2 order-1">
+                    <h3 class="text-uppercase">Título de la Sección 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus maiores pariatur at placeat
+                        vel quam corporis quod odit itaque illum, non neque, perferendis eveniet cupiditate.</p>
+                    <a href="/registro" class="btn dark bg-success">Registrar</a>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6 order-md-1 order-3">
+                    <h3 class="text-uppercase">Título de la Sección 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus maiores pariatur at placeat
+                        vel quam corporis quod odit itaque illum, non neque, perferendis eveniet cupiditate.</p>
+                    <a href="/registro" class="btn dark bg-success">Registrar</a>
+                </div>
+
+                <div class="col-md-6 order-md-2 order-4">
+                    <div class="img-container">
+                        <img src="https://play-lh.googleusercontent.com/FoIccZotsZDSWSukglYzPt5bpheD9tk7ocqiy_spVdB0EHb9C38jjxrLtQ7R2iM6cGk=w526-h296-rw"
+                            class="img-fluid img-section" alt="Imagen 2">
+                    </div>
+                    <h3 class="text-uppercase mt-3">Título de la Sección 4</h3>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6 order-md-1 order-5">
+                    <div class="img-container">
+                        <img src="https://image.winudf.com/v2/image1/dnIuZ2FtZXMuaHViX3NjcmVlbl8zXzE2NjEyNzYyNDNfMDY1/screen-3.webp?fakeurl=1&type=.webp"
+                            class="img-fluid img-section" alt="Imagen 3">
+                    </div>
+
+                </div>
+                <div class="col-md-6 order-md-2 order-6">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus maiores pariatur at placeat
+                        vel quam corporis quod odit itaque illum, non neque, perferendis eveniet cupiditate.</p>
+                    <a href="/registro" class="btn dark bg-success">Registrar</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menú con logotipos en la parte inferior -->
+        <div class="mt-5">
+            <nav class="navbar navbar-dark bg-success mt-5">
+                <div class="container">
+                    <footer class="text-center">
+                        <p>&copy; 2024 Proyecto de Realidad Virtual para la Conservación</p>
+                    </footer>
+                </div>
+            </nav>
+        </div>
+    </main>
+
+    <style>
+        .img-container {
+            perspective: 1000px;
+        }
+
+        .img-section {
+            width: 100%;
+            height: auto;
+            transform: rotateY(20deg);
+            transition: transform 0.5s ease;
+        }
+
+        .img-container:hover .img-section {
+            transform: rotateY(0);
+        }
+    </style>
